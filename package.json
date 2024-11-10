@@ -2,12 +2,12 @@
   "name": "mern-stack-blood-bank-app",
   "version": "1.0.0",
   "description": "mern blood bank app",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon server.js",
+    "index": "nodemon index.js",
     "frontend": "npm start --prefix ./frontend",
-    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+    "dev": "concurrently \"npm run index\" \"npm run frontend\""
   },
   "author": "",
   "license": "ISC",
